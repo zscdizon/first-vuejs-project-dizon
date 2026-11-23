@@ -83,16 +83,13 @@ a {
   letter-spacing: -1px;
 }
 
-.logo-icon {
-  display: grid;
-  place-items: center;
-  width: 37px;
-  height: 37px;
-  border-radius: 13px 13px 13px 4px;
-  background: var(--green);
-  font-weight: 800;
-  font-size: 21px;
-  transform: rotate(-5deg);
+.logo-gif {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  display: block;
+  border-radius: 8px;
+  flex-shrink: 0;
 }
 
 .navigation {

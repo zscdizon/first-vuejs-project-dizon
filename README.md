@@ -1,4 +1,3 @@
-
 # TaskFlow - Mini Task Manager
 
 A simple and interactive task management application built using Vue.js 3.

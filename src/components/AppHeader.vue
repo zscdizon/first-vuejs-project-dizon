@@ -1,4 +1,3 @@
-
 <script setup>
 defineProps({
   dark: {
@@ -14,7 +13,11 @@ defineEmits(['toggle-theme'])
   <header class="header">
     <div class="header-content">
       <div class="logo">
-        <span class="logo-icon">✦</span>
+        <img
+  src="/taskflow-logo.gif"
+  alt="TaskFlow Logo"
+  class="logo-gif"
+/>
         <h2>TaskFlow<span class="logo-dot">.</span></h2>
       </div>
 
