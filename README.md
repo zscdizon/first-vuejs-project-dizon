@@ -1,37 +1,44 @@
-# mini-task-managerr
 
-This template should help get you started developing with Vue 3 in Vite.
+# TaskFlow - Mini Task Manager
 
-## Recommended IDE Setup
+A simple and interactive task management application built using Vue.js 3.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Features
 
-## Recommended Browser Setup
+- Add new tasks
+- Mark tasks as completed or pending
+- Delete tasks
+- Filter tasks by status
+- Track total, completed, and pending tasks
+- Save tasks using Local Storage
+- Light and dark mode
+- Animated abstract background
+- Page transition animations
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Technologies Used
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Vue.js 3
+- JavaScript
+- CSS
+- Vue Router
+- Vite
+- Local Storage
 
 ## Project Setup
+
+Install dependencies:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Run Development Server
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Build for Production
 
 ```sh
 npm run build
